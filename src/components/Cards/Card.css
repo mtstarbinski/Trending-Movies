@@ -1,0 +1,30 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-box-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+.movie-image {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    min-height: 40px;
+    font-size: 28px;
+    line-height: 1.1;
+}
+
+

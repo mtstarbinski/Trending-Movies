@@ -1,0 +1,34 @@
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.search-box {
+    -webkit-appearance: none;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    padding: 0 10px 0 45px;
+    width: 200px;
+    height: 40px;
+    font-family: 'Nunito';
+}
+
+.search-box::placeholder {
+    font-family: 'Nunito';
+    content: 'search';
+}
+
+.search-icon {
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .search-box{
+        width: 150px;
+    }
+}
